@@ -1,0 +1,49 @@
+.footer {
+    background-color: rgb(4, 4, 46); /* Footer background color */
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensures it takes full width */
+  }
+  
+  .footer-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(3, 3, 41); /* Match footer background */
+    padding: 10px; /* Optional: Padding around the image */
+    border-radius: 8px; /* Optional: Rounded corners */
+  }
+  
+  .footer-image img {
+    width: 98px; /* Adjust image size */
+    height: 60px; /* Maintain aspect ratio */
+    border-radius: 0%; /* Optional: make it circular */
+    margin-bottom: 20px; /* Space between image and text */
+  }
+  
+  .footer-links,
+  .footer-icons {
+    display: flex;
+  }
+  
+  .footer-links div {
+    margin-right: 40px; /* Space between link sections */
+  }
+  
+  .footer-icons a {
+    margin: 0 10px; /* Space between icons */
+    color: white; /* Icon color */
+  }
+  
+  .footer-icons a:hover {
+    color: lightblue; /* Change icon color on hover */
+  }
+  

@@ -1,0 +1,345 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('C:\react_interview\sample\src\dubai.jpg'); /* Replace with your image path */
+  background-size: 50%;
+  padding: 150px;
+  width: 100pc;
+  margin-top: 1px; /* Adjust as needed */
+  border-radius: 0%; /* Optional: add rounded corners */
+}
+
+.search-input,
+.location-input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex: 1; /* Allow inputs to grow */
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: green; /* Green background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: darkgreen; /* Darker green on hover */
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.info-text {
+  flex: 1;
+  margin-right: 20px; /* Space between text and country boxes */
+}
+
+.signup-button {
+  padding: 10px 20px;
+  background-color: green; /* Green background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: darkgreen; /* Darker green on hover */
+}
+
+.country-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 10px; /* Space between rectangles */
+}
+
+.country-box {
+  padding: 10px;
+  border: 2px solid red; /* Red border */
+  color: black; /* Black text */
+  border-radius: 4px; /* Optional: add rounded corners */
+  width: calc(50% - 10px); /* Set width to 50% minus gap */
+  text-align: center; /* Center the text */
+}
+.video-container {
+  display: flex;
+  background-color: rgb(2, 2, 29); /* Blue background */
+  padding: 20px;
+  align-items: center; /* Center items vertically */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.video {
+  width: 50%; /* Adjust width as needed */
+  margin-right: 20px; /* Space between video and text */
+}
+
+.text-container {
+  display: flex; /* Align items in a row */
+  justify-content: flex-start;
+  flex: 0; /* Allow text container to take up remaining space */
+}
+
+.role {
+  margin-right: 100px;
+  padding:20px ;
+}
+
+.role-text {
+  color: white; /* Default text color */
+  font-size: 1.5em; /* Larger text */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.role-text:hover {
+  color: orange; /* Change to orange on hover */
+  text-decoration: underline;
+}
+
+.points {
+  display: none;
+  flex-direction: column;
+  gap: 10px; /* Space between points */
+  margin-top: 5px; /* Space above points */
+}
+.role:hover .points{
+  display: flex;
+}
+.point {
+  background-color: green; /* Green background */
+  color: white; /* White tick mark */
+  border-radius: 50%; /* Round shape */
+  width: 20px; /* Set size */
+  height: 20px; /* Set size */
+  display: flex;
+  justify-content: center; /* Center tick */
+  align-items: center; /* Center tick */
+}
+
+
+.point-item {
+  display: flex; /* Align point and text in a row */
+  align-items: center; /* Vertically center align */
+  margin-bottom: 5px; /* Space between point items */
+}
+
+.point {
+  margin-right: 5px; /* Space between point and text */
+}
+
+.point-text {
+  color: white; /* Change this to your desired color */
+}
+
+.youtube-video {
+  width: 50%; /* Adjust width as needed */
+  height: 315px; /* Set height for the video */
+  margin-right: 20px; /* Space between video and text */
+}
+.find-you-container {
+  display: flex; /* Align items in a row */
+  justify-content: space-between; /* Space between text and button */
+  align-items: center; /* Center items vertically */
+  background-color: lightblue; /* Light blue background */
+  padding: 95px; /* Padding around the container */
+  margin-top: 68px;
+}
+
+.find-you-text {
+  color: black; /* Text color */
+  font-weight: bold; /* Make text bold */
+  font-size: xx-large;
+}
+
+.highlight {
+  text-decoration: none; /* Red underline */
+  color: black; /* Keep text color black */
+  border-bottom: 2px solid red; /* Red underline */
+}
+
+.get-verified-button {
+  background-color: red; /* Red button */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.get-verified-button:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+.centered-container {
+  text-align: center; /* Center text horizontally */
+  padding: 20px; /* Padding around the container */
+  margin-top: 20px; /* Space above the container */
+}
+
+.centered-heading {
+  font-weight: bold; /* Bold heading */
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.centered-text {
+  font-weight: normal; /* Normal weight for the paragraph */
+  font-size: 1em; /* Font size for the paragraph */
+}
+
+
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap into the next line */
+  justify-content: space-around; /* Center align boxes */
+/* Space above the container */
+  max-width: 867px; /* Set a maximum width to ensure only three boxes per row */
+  margin: auto; /* Center align the container */
+   /* Space above the container */
+}
+
+.box {
+  width: 200px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin: 10px; /* Space between boxes */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+@media (max-width: 768px) {
+  .box {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Height adjusts based on content */
+  }
+}
+
+
+.light-blue {
+  background-color: lightblue; /* Light blue background */
+}
+
+.white {
+  background-color: white; /* White background */
+}
+
+
+
+.box-text {
+  margin-top: 5px; /* Space between icon and text */
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  color: red; /* Color for the icon */
+  font-size: 24px; /* Font size for the icon */
+}
+
+
+.icon {
+  font-size: 30px; /* Adjust size for the Font Awesome icon */
+}
+.footer {
+  background-color: blue; /* Blue background */
+  padding: 20px; /* Padding around the footer */
+  color: white; /* White text color */
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start; /* Align items to the start */
+  justify-content: space-between; /* Space between sections */
+}
+
+.footer-image {
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center align items */
+}
+
+.footer-image img {
+  width: 50px; /* Adjust image size */
+  height: 50px; /* Adjust image size */
+}
+
+.footer-text {
+  margin-top: 5px; /* Space between image and text */
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row; /* Align link columns horizontally */
+}
+
+.link-column {
+  margin-right: 20px; /* Space between link columns */
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center; /* Center align icons vertically */
+}
+
+.icon {
+  margin: 0 10px; /* Space between icons */
+  color: white; /* White color for icons */
+  font-size: 20px; /* Icon size */
+}
+
+.box-text {
+  text-align: center; /* Center text in boxes */
+  padding: 10px; /* Space inside the box */
+}
